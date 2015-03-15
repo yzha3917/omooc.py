@@ -32,6 +32,12 @@
 	A<sup>3</sup>: It doesn't. Altough it is visually acceptable to use superscript tags to fake one. Just add 	
 	```[<sup>#</sup>] ```, # is the number of footnotes,and then writing down footnotes in the end with [===] as seperation. 
 	
+* Git
+
+	Q: How to discard the uncommited changes. 
+	
+	A: ```git checkout file.name```
+	
 ===
 
 [1]: [Markdown to insert and display an image on GitHub repo](http://webapps.stackexchange.com/questions/29602/markdown-to-insert-and-display-an-image-on-github-repo)
