@@ -11,6 +11,14 @@
 	A: Edit the Permission level of GitHub account on acount settings: [https://www.gitbook.com/@username/settings]
 ![alt text](https://github.com/yzha3917/omooc.py/blob/master/pics/gitbook.jpg?raw=true)
 
+
+	Q: how to adjust structure of book. 
+	
+	A: SUMMARY.md is the file. It links the local files to the table of contents. It's vital to learn that the path should be relative path, i.e. /book/chapter_1/section_1.md
+	
+
+
+
 ===
 * Markdown
 
@@ -33,6 +41,7 @@
 	```[<sup>#</sup>] ```, # is the number of footnotes,and then writing down footnotes in the end with [===] as seperation. 
 	
 ===
+
 
 [1]: [Markdown to insert and display an image on GitHub repo](http://webapps.stackexchange.com/questions/29602/markdown-to-insert-and-display-an-image-on-github-repo)
 
