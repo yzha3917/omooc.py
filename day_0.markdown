@@ -23,6 +23,9 @@
 	Q [^2]: Need to resize the pic. 
 	
 	A: For Mou editor, instead of appending [?raw=true], [ =100x100] could be uesd for resizing. 100 means 100 pixels, and the first number is for width, the 2nd one is for height.
+	
+	
+===
 
 [^1]: [Markdown to insert and display an image on GitHub repo](http://webapps.stackexchange.com/questions/29602/markdown-to-insert-and-display-an-image-on-github-repo)
 
