@@ -17,8 +17,7 @@
 	A: SUMMARY.md is the file. It links the local files to the table of contents. It's vital to learn that the path should be relative path, i.e. /book/chapter_1/section_1.md
 	
 
-
-
+	
 ===
 * Markdown
 
