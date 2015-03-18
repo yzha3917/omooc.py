@@ -6,7 +6,7 @@
 
 - [x] Github与Gitbook链接 + 发布图书。 
 
-- [ ] say "Hello World".  
+- [x] say "Hello World".  
 
 - [ ] gitbook: markdown 教程。
 
