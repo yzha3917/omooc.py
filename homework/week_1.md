@@ -8,7 +8,7 @@
 
 - [x] say "Hello World".  
 
-- [ ] gitbook: markdown 教程。
+- [x] gitbook: markdown 教程。
 >用markdown形式写成教程，放到Github里面
 
 - [ ] mailling-list 教程。
