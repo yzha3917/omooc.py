@@ -42,7 +42,7 @@ def highest(high):
 def arange():
     global picked
     picked = random.randrange(minimum,maximum)
-    print picked
+    # print picked
     return 
 
 def input_guess(guessed):
