@@ -13,7 +13,7 @@ def new_game():
     print "A new game has started! "
     print "Choose the range you wanna play,"
     print "and then, you guess an integer from this range."
-    
+    print "Remeber, you need to press Enter after your input everytime.
     
 def lowest(low):
     global minimum 
@@ -42,7 +42,7 @@ def highest(high):
 def arange():
     global picked
     picked = random.randrange(minimum,maximum)
-    #print picked
+    print picked
     return 
 
 def input_guess(guessed):
@@ -91,15 +91,16 @@ def input_guess(guessed):
     else:
         print "Wrong again??"
         print "You are really not supposed to see this line of string, if you play it right.."
-        print "Now dummy, this game will start over. And this time, you entry the average of the two extreme values of the correct range."
+        print "Now dummy, this game will start over. And this time, you enter the average of the two extreme values of the correct range."
         print "Can you do it?"
         new_game()
     
 frame = simplegui.create_frame('Testing', 200, 200)
 
-frame.add_input("Lowest number", lowest,100)
-frame.add_input("Highest number", highest,100)
+frame.add_input("Lowest number", lowest,50)
+frame.add_input("Highest number", highest,50)
 frame.add_button('Its Showtime!',arange,100)
-frame.add_input("Do you have that luck?", input_guess,100)
+frame.add_input("", input_guess,50)
 
+frame.start()
 new_game()
