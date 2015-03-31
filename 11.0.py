@@ -1,7 +1,7 @@
 
 import random
 import math
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 minimum = 0;
 maximum = 100;
@@ -14,7 +14,7 @@ def new_game():
     print "A new game has started! "
     print "Choose the range you wanna play,"
     print "and then, you guess an integer from this range."
-    print "Remeber, you need to press Enter after your input everytime.
+    print "Remeber, you need to press Enter after your input everytime."
     
 
 def lowest(low):
@@ -44,7 +44,7 @@ def highest(high):
 def arange():
     global picked
     picked = random.randrange(minimum,maximum)
-    print picked
+    # print picked
     return 
 
 def input_guess(guessed):
@@ -106,4 +106,3 @@ frame.add_input("", input_guess,50)
 
 frame.start()
 new_game()
->>>>>>> parent of d7d9ad4... Update guess_the_number.py
